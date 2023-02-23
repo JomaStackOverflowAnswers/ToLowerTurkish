@@ -3,7 +3,10 @@
 #include <unicode/unistr.h>
 #include <unicode/ustream.h>
 #include <unicode/locid.h>
+#ifdef _WIN32
 #include <Windows.h>
+#endif
+
 
 using namespace std::string_literals;
 int main()
