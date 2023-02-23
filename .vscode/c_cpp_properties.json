@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/ICU72_1/20221013.8_ICU4C_MSVC_x64_Release/include"
             ],
             "defines": [
                 "_DEBUG",
